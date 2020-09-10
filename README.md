@@ -92,6 +92,8 @@ If the user enters an invalid input (according to your validation rules), then U
 The data that is retrieved from the API should be displayed in a suitable format (whether as a list group, table, separate component etc. is up to you).
 The component you create should also output to the user whether there was an error whilst retrieving information from the API.
 
+#### Once these task are completed either provide a link to the GIT repo, or zip the project and email
+
 
 
 
