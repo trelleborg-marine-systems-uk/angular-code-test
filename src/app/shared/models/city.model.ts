@@ -1,7 +1,7 @@
 
 // Model that gets returned by the OpenWeather API
 export class City {
-    public id: number;
+    // Assume that name is a unique field.
     public name: string;
     public coord: Coordinate;
     public weather: WeatherStatus;
@@ -9,19 +9,15 @@ export class City {
 }
 
 export class Coordinate {
-    public lon: number;
-    public lat: number;
+    constructor(public lat: number, public lon: number) {}
 }
 
 export class WeatherStatus {
-    public main: string;
-    public description: string;
+    constructor(public main: string, public description: string) {}
 }
 
 export class TemperatureInfo {
-    public temp: number;
-    public pressure: number;
-    public humidity: number;
-    public tempMin: number;
-    public tempMax: number;
+    constructor(public temp: number,
+                public tempMin: number,
+                public tempMax: number) {}
 }
