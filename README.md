@@ -13,4 +13,26 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Test Brief
 
+To gain an idea of developer capability in understanding and developing with technologies currently used at Trelleborg Marine Systems UK, this project will cover 
+some key aspects of Angular. It should be noted - this is not a timed test, there is no expectation the developer should have pre-existing knowledge of Angular, 
+this provides a demonstration of problem solving, self-sufficiency and task completion.
+
+When completing a task please use: `//` or `<!-- -->` with TASK: [TASK Number] indicating the area that completes the task.  
+
+e.g
+
+`<!-- TASK: 1 Add heading to Home component -->`
+
+`<h1>I Added a Heading</h1>`
+
+or 
+
+`// TASK: 2 Populate list with things`
+
+`let listOfThings = {"thingOne","thingTwo"}`
+
+### Tasks
+
+
+
 
