@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tmsuk-test-app"
+    }
+  },
+  "defaultProject": "tmsuk-test-app",
+  "cli": {
+    "analytics": "52c06dca-fe3a-4ac7-8efc-3bad959ef001"
+  }
 }
