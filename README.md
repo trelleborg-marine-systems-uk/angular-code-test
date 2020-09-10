@@ -33,6 +33,8 @@ or
 
 ### Tasks
 
-
+1. The title in the card on Home and List pages differ. Think of a solution to fix this.
+2. Align the buttons in the footers to the right.
+3. Having static information in the list does not allow for easy updating - Can this be remedied using Angular.
 
 

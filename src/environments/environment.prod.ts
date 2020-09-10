@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+    production: true,
+    appTitle: 'Trelleborg Marine Systems UK - Developer Test'
 };
