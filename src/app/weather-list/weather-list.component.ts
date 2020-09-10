@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { City, Coordinate, TemperatureInfo, WeatherStatus } from '../shared/models/city.model';
 
 @Component({
@@ -49,7 +49,7 @@ export class WeatherListComponent {
             this.exampleTemperature,
             this.exampleMinimumTemperature,
             this.exampleMaximumTemperature);
-        this.sampleData.push(city);
+        this.sampleData = null;
     }
 
 }
