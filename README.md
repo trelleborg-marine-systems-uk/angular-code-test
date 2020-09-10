@@ -34,27 +34,34 @@ or
 ### Tasks
 
 #### 1. Weather list component:
-   This part is to test your general Angular/HTML/UX knowledge.
-    
-   This component contains a simple input field for which you can add a city along with some default temperature readings to a table.
-   There are a few bugs with this component. 
-   
-   The goal is to fix these issues, as well as address any user experience inconsistencies you may find along the way.
-   ##### Bonus - if you could implement the ability for a user to remove a city from the table.
-   
+This part is to test your general Angular/HTML/UX knowledge.
+
+This component contains a simple input field for which you can add a city along with some default temperature readings to a table.
+There are a few bugs with this component. 
+
+The goal is to fix these issues, as well as address any user experience inconsistencies you may find along the way.
+##### Bonus - if you could implement the ability for a user to remove a city from the table.
+
+
 #### 2. Weather view component:
-    For this, you will need to make use of the provided WeatherService in order to make API calls.
+To start this task, you will need to create a new component, call it 'WeatherViewComponent'. You have the freedom to style this component however you want,
+the 'ngx-bootstrap' library is included if you're familiar with Bootstrap (v4).
     
-    You will need to create a component, call it 'WeatherViewComponent'.
+The objective here is to create a component that will allow a user to input a city name, get its current weather information and display it.
+You will need to make use of a reactive form, which contains a single input field to get the city name.
+This form must have some validation to check that the user input is valid.
+If the user enters an invalid input (according to your validation rules), then the UI must display the violation(s).
     
-    The objective here is to create a reactive form, which takes a city name as an input, that must have some input validation,
-    and calls the Open Weather API to retrieve the latest weather information found for that city. 
-    If the user enters an invalid input (according to your validation rules), then UI must display the violation
-    
-    The data that is retrieved from the API should be displayed in a suitable format (whether as a list group, table, separate component etc. is up to you).
-    The component you create should also output to the user whether there was an error whilst retrieving information from the API.
-    
-    ##### Bonus - You could ???????
+Once a valid user input has been gathered, you will need to send it to the Open Weather API to get the current weather information.
+(you can use the 'WeatherService' located in 'src/app/shared/services'),
+
+
+The data that is retrieved from the API should be displayed in a suitable format (whether as a list group, table, separate component etc. is up to you).
+The minimum data to display to the user would be the city name, and current temperature
+(although showing all the data returned would be preferable, see the 'City' model, located in 'src/app/shared/models').
+
+
+The component you create should also output to the user whether there was an error whilst retrieving information from the API.
     
 
 
