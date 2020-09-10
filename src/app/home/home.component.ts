@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from '../../environments/environment';
-
 
 @Component({
   selector: 'app-home',
@@ -9,10 +7,15 @@ import { environment } from '../../environments/environment';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+    public pageContent = 'Replace this text with something that loads dynamically';
 
-  ngOnInit(): void {
+    constructor() { }
 
-  }
+    ngOnInit(): void {
 
+    }
+
+    public swapContent(): void {
+        console.log('Clicked me!');
+    }
 }
