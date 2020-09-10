@@ -33,6 +33,29 @@ or
 
 ### Tasks
 
+#### 1. Weather list component:
+   This part is to test your general Angular/HTML/UX knowledge.
+    
+   This component contains a simple input field for which you can add a city along with some default temperature readings to a table.
+   There are a few bugs with this component. 
+   
+   The goal is to fix these issues, as well as address any user experience inconsistencies you may find along the way.
+   ##### Bonus - if you could implement the ability for a user to remove a city from the table.
+   
+#### 2. Weather view component:
+    For this, you will need to make use of the provided WeatherService in order to make API calls.
+    
+    You will need to create a component, call it 'WeatherViewComponent'.
+    
+    The objective here is to create a reactive form, which takes a city name as an input, that must have some input validation,
+    and calls the Open Weather API to retrieve the latest weather information found for that city. 
+    If the user enters an invalid input (according to your validation rules), then UI must display the violation
+    
+    The data that is retrieved from the API should be displayed in a suitable format (whether as a list group, table, separate component etc. is up to you).
+    The component you create should also output to the user whether there was an error whilst retrieving information from the API.
+    
+    ##### Bonus - You could ???????
+    
 
 
 
