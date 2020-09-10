@@ -1,16 +1,14 @@
-<div class="row">
-    <div class="col-md-12">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>TMSUK Developer test</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <a [routerLink]="'/list-weather'">List Weather</a>
-            </div>
-        </div>
+<div class="card">
+    <div class="card-header">
+        <h1 class="text-center">Trelleborg Marine Systems UK - Developer Test</h1>
+    </div>
+    <div class="card-body">
+        <h4>
+            {{ pageContent }} <button (click)="swapContent()">Change Text</button>
+        </h4>
+    </div>
+    <div class="card-footer">
+        <a class="btn btn-warning" routerLink="/list" >Tasks</a>
+        <a class="btn btn-danger" routerLink="/list-weather">Weather</a>
     </div>
 </div>
-
-
