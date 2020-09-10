@@ -45,6 +45,8 @@ or
 #### 2. Weather view component:
     For this, you will need to make use of the provided WeatherService in order to make API calls.
     
+    You will need to create a component, call it 'WeatherViewComponent'.
+    
     The objective here is to create a reactive form, which takes a city name as an input, that must have some input validation,
     and calls the Open Weather API to retrieve the latest weather information found for that city. 
     If the user enters an invalid input (according to your validation rules), then UI must display the violation
