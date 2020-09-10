@@ -81,15 +81,25 @@ The goal is to fix these issues, as well as address any user experience inconsis
 
 #### 7. Weather view component:
 
-For this, you will need to make use of the provided WeatherService in order to make API calls.
+To start this task, you will need to create a new component, call it 'WeatherViewComponent'. You have the freedom to style this component however you want,
+the 'ngx-bootstrap' library is included if you're familiar with Bootstrap (v4).
 
-You will need to create a component, call it 'WeatherViewComponent'.
+(You will also need to add a route to navigate to this new component in 'HomeComponent', as well as in the app-routing.module.ts file.)
+    
+The objective here is to create a component that will allow a user to input a city name, get its current weather information and display it.
+You will need to make use of a reactive form, which contains a single input field to get the city name.
+This form must have some validation to check that the user input is valid.
+If the user enters an invalid input (according to your validation rules), then the UI must display the violation(s).
+    
+Once a valid user input has been gathered, you will need to send it to the Open Weather API to get the current weather information.
+(you can use the 'WeatherService' located in 'src/app/shared/services'),
 
-The objective here is to create a reactive form, which takes a city name as an input, that must have some input validation,
-and calls the Open Weather API to retrieve the latest weather information found for that city. 
-If the user enters an invalid input (according to your validation rules), then UI must display the violation
 
 The data that is retrieved from the API should be displayed in a suitable format (whether as a list group, table, separate component etc. is up to you).
+The minimum data to display to the user would be the city name, and current temperature
+(although showing all the data returned would be preferable, see the 'City' model, located in 'src/app/shared/models').
+
+
 The component you create should also output to the user whether there was an error whilst retrieving information from the API.
 
 #### Once these task are completed either provide a link to the GIT repo, or zip the project and email
