@@ -63,12 +63,12 @@ ___"Right. One... two... five!"___.
 
 Demonstrate dependency injection with this service.
 
-#### 4. Add a new Test Component
+#### 5. Add a new Test Component
     
 Add a new component called: 'Test', add a single `<h1>` tag with the text ___"Success"___, try to keep to the look of the other components.
 Make sure it is possible to navigate to the new component - add links as required.
 
-#### 5. Weather list component:
+#### 6. Weather list component:
 
 This part is to test general Angular/HTML/UX knowledge.
 
@@ -79,7 +79,7 @@ The goal is to fix these issues, as well as address any user experience inconsis
        
 ##### Bonus - Implement the ability for a user to remove a city from the table.
 
-#### 6. Weather view component:
+#### 7. Weather view component:
 
 For this, you will need to make use of the provided WeatherService in order to make API calls.
 
